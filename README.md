@@ -7,6 +7,8 @@ wechat-component 模块化
 
 
  <img width='300' src='https://github.com/wangcheng-git/mobile/blob/master/view-images/wechat-componen/view1.jpg' >
+ <img width='300' src='https://github.com/wangcheng-git/mobile/blob/master/view-images/wechat-componen/view2.jpg' >
+ <img width='300' src='https://github.com/wangcheng-git/mobile/blob/master/view-images/wechat-componen/view3.jpg' >
 <!--<img style='display:inline-block;width:30%!important;' src='https://github.com/wangcheng-git/mobile/blob/master/view-images/wechat-componen/view2.jpg' >
 <img style='display:inline-block;width:30%!important;' src='https://github.com/wangcheng-git/mobile/blob/master/view-images/wechat-componen/view3.jpg' >
  -->
