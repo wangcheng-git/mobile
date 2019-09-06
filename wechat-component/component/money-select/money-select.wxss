@@ -1,0 +1,36 @@
+/* component/money-select/money-select.wxss */
+.money-select-row {
+  text-align: center;
+  color: #515151;
+}
+.money-select-row text {
+  display: inline-block;
+  width: 29%;
+  height: 140rpx;
+  line-height: 140rpx;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8rpx;
+  font-size: 32rpx;
+  margin: 2%;
+  vertical-align: top;
+}
+.money-select-row .active {
+  background-color: #2795db;
+  color: #fff;
+}
+.money_input {
+  text-align: center;
+}
+.money_input input {
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 5%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+.money_input text {
+  color: red;
+  font-size: 26rpx;
+}

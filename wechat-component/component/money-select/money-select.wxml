@@ -1,0 +1,17 @@
+<!--component/money-select/money-select.wxml-->
+<view>
+  <view class="money-select-row">
+    <text bindtap="_switchSelect" data-index='{{money_list[0].index}}' class="{{index==0?'active':''}}">{{money_list[0].money_text}}</text>
+    <text bindtap="_switchSelect" data-index='{{money_list[1].index}}' class="{{index==1?'active':''}}">{{money_list[1].money_text}}</text>
+    <text bindtap="_switchSelect" data-index='{{money_list[2].index}}' class="{{index==2?'active':''}}">{{money_list[2].money_text}}</text>
+  </view>
+  <view class="money-select-row">
+    <text bindtap="_switchSelect" data-index='{{money_list[3].index}}' class="{{index==3?'active':''}}">{{money_list[3].money_text}}</text>
+    <text bindtap="_switchSelect" data-index='{{money_list[4].index}}' class="{{index==4?'active':''}}">{{money_list[4].money_text}}</text>
+    <text bindtap="_switchSelect" data-index='{{money_list[5].index}}' class="{{index==5?'active':''}}">{{money_list[5].money_text}}</text>
+  </view>
+  <modal class='money_input' hidden="{{money_input_show}}" title="请输入金额" confirm-text="确定" cancel-text="取消" bindcancel="_dialog_hidden" bindconfirm="_dialog_confirm">
+    <input bindinput="_getMoneyInput" typr='number' placeholder='输入金额（单位:元）' maxlength='3'></input>
+    <text wx:if='{{input_msg_show}}'>* 请输入正确的金额</text>
+  </modal>
+</view>

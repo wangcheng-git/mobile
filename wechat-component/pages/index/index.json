@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "template-popup": "/component/password-popup/password-popup"
+  }
+}

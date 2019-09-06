@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<text>{{ popup_input_value }}</text>
+<view class="container">
+  <button bindtap="showPopup">获取密码弹窗</button>
+</view>
+<template-popup wx:if='{{popup_input_show}}' popup_info_show='false' popup_info_name='圈存' popup_info_money='30.00' popup_info_type='工行银行卡(8955)' bind:callback="callback"></template-popup>
