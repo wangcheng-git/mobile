@@ -4,3 +4,4 @@
 wechat-component 模块化
 封装滑块验证、金额选择、密码弹窗模块。
 
+https://github.com/wangcheng-git/mobile/blob/master/view-images/wechat-componen/view1.jpg
